@@ -1,0 +1,103 @@
+
+
+
+
+/*------------------------------------------------------ common css */
+*{
+    margin: 0;
+    padding:0;  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+.title_common{
+    font-size: 30px;
+    font-weight: bold;
+    margin:30px 0px;
+}
+
+.logo_header {
+    background-color: #a5ffd0d4;
+}
+
+header {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: chocolate;
+}
+
+
+
+/*------------------------------------------------------------ hero area css */
+.title_image {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h1{
+    font-size: 70px;
+}
+
+/*---------------------------------------------------------------- menu */
+
+.food_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_food {
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+/*------------------------------------------------------------ testimonials css */
+.testimonials{
+    margin-top:50px;
+}
+.reveiw_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*------------------------------------------------------------------ footer css */
+footer{
+    padding:30px 0px;
+    color:#fff;
+    background: #000000;
+}
+.footer_details {
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    margin:30px 0px;
+}
